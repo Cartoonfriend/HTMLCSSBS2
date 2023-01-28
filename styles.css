@@ -295,3 +295,24 @@ footer h1
     padding-top: 30px;
     color: #777;
 }
+
+/* Evénements */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1fr,3);
+    grid-template-rows: repeat(1fr,3);
+}
+
+.premier {
+    background: url(Images/acheter.png) no-repeat top center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 50px;
+}
+
+.deuxieme {
+    background: url(Images/appareil-photo.png) no-repeat top center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
